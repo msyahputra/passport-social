@@ -35,15 +35,15 @@ module.exports = function (passport) {
                             return done(err);
                         }
                         if (user) {
-                          if(!user.facebook.token){
-                              user.facebook.token = token;
-                              user.facebook.fb_Id = profile.id;
-                              user.facebook.email = profile.emails[0].value;
-                              user.save(function (err) {
-                                  if(err)
-                                      throw err;
-                              })
-                           }
+                            if (!user.facebook.token) {
+                                user.facebook.token = token;
+                                user.facebook.fb_Id = profile.id;
+                                user.facebook.email = profile.emails[0].value;
+                                user.save(function (err) {
+                                    if (err)
+                                        throw err;
+                                })
+                            }
                             return done(null, user);
                         }
                         else {
@@ -52,6 +52,7 @@ module.exports = function (passport) {
                             newUser.facebook.token = token;
                             newUser.facebook.username = profile.displayName;
                             newUser.facebook.email = profile.emails[0].value;
+
                             newUser.save(function (err) {
                                 if (err) {
                                     throw new Error(err);
@@ -67,6 +68,8 @@ module.exports = function (passport) {
                     user.facebook.token = token;
                     user.facebook.username = profile.displayName;
                     user.facebook.email = profile.emails[0].value;
+
+
                     user.save(function (err) {
                         if (err)
                             throw err;
@@ -95,12 +98,12 @@ module.exports = function (passport) {
                             return done(err);
                         }
                         if (user) {
-                            if(!user.google.token){
+                            if (!user.google.token) {
                                 user.google.token = token;
                                 user.google.fb_Id = profile.id;
                                 user.google.email = profile.emails[0].value;
                                 user.save(function (err) {
-                                    if(err)
+                                    if (err)
                                         throw err;
                                 })
                             }
@@ -108,11 +111,11 @@ module.exports = function (passport) {
                         }
                         else {
                             var newUser = new User();
+
                             newUser.google.Gg_Id = profile.id;
                             newUser.google.token = token;
                             newUser.google.name = profile.displayName;
                             newUser.google.email = profile.emails[0].value;
-
                             newUser.save(function (err) {
                                 if (err) {
                                     throw Error(err);
@@ -155,11 +158,12 @@ module.exports = function (passport) {
                             return done(err);
                         }
                         if (user) {
-                            if(!user.twitter.token){
+                            if (!user.twitter.token) {
                                 user.twitter.token = token;
                                 user.twitter.Tw_Id = profile.id;
+                                // user.twitter.lastStatus = profile._json.status.text;
                                 user.save(function (err) {
-                                    if(err)
+                                    if (err)
                                         throw err;
                                 })
                             }
@@ -172,6 +176,7 @@ module.exports = function (passport) {
                             newUser.twitter.token = token;
                             newUser.twitter.profile_name = profile.profile_name;
                             newUser.twitter.username = profile.username;
+
                             newUser.save(function (err) {
                                 if (err) {
                                     throw Error(err);
@@ -183,10 +188,12 @@ module.exports = function (passport) {
                     // if(req.user) fetching data from req.user and +++++++ lines
                 } else {
                     var user = req.user;
+
                     user.twitter.Tw_Id = profile.id;
                     user.twitter.token = token;
                     user.twitter.profile_name = profile.profile_name;
                     user.twitter.username = profile.username;
+
                     user.save(function (err) {
                         if (err)
                             throw err;
