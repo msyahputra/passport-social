@@ -39,7 +39,7 @@ module.exports = function (app, passport) {
 
     app.get('/connect/facebook', passport.authorize('facebook', {scope: ['email', 'user_posts', 'user_likes', 'user_photos']}));
     app.get('/connect/google', passport.authorize('google', { scope: ['profile', 'email'] }));
-    app.get('/connect/twitter', passport.authorize('twitter', {scope: ['emial', 'user_posts', 'user_photos']}));
+    app.get('/connect/twitter', passport.authorize('twitter', {scope: ['emial']}));
 
 
     app.get('/unlink/facebook', function(req, res){
