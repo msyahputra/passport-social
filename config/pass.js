@@ -48,12 +48,10 @@ module.exports = function (passport) {
                         }
                         else {
                             var newUser = new User();
-
                             newUser.facebook.fb_Id = profile.id;
                             newUser.facebook.token = token;
                             newUser.facebook.username = profile.displayName;
                             newUser.facebook.email = profile.emails[0].value;
-
                             newUser.save(function (err) {
                                 if (err) {
                                     throw new Error(err);
@@ -69,8 +67,6 @@ module.exports = function (passport) {
                     user.facebook.token = token;
                     user.facebook.username = profile.displayName;
                     user.facebook.email = profile.emails[0].value;
-
-
                     user.save(function (err) {
                         if (err)
                             throw err;
@@ -112,7 +108,6 @@ module.exports = function (passport) {
                         }
                         else {
                             var newUser = new User();
-
                             newUser.google.Gg_Id = profile.id;
                             newUser.google.token = token;
                             newUser.google.name = profile.displayName;
@@ -129,7 +124,6 @@ module.exports = function (passport) {
                     // if(req.user) fetching data from req.user and +++++++ lines
                 } else {
                     var user = req.user;
-
                     user.google.Gg_Id = profile.id;
                     user.google.token = token;
                     user.google.name = profile.displayName;
@@ -164,7 +158,6 @@ module.exports = function (passport) {
                             if(!user.twitter.token){
                                 user.twitter.token = token;
                                 user.twitter.Tw_Id = profile.id;
-                                // user.twitter.lastStatus = profile._json.status.text;
                                 user.save(function (err) {
                                     if(err)
                                         throw err;
@@ -179,7 +172,6 @@ module.exports = function (passport) {
                             newUser.twitter.token = token;
                             newUser.twitter.profile_name = profile.profile_name;
                             newUser.twitter.username = profile.username;
-
                             newUser.save(function (err) {
                                 if (err) {
                                     throw Error(err);
@@ -191,12 +183,10 @@ module.exports = function (passport) {
                     // if(req.user) fetching data from req.user and +++++++ lines
                 } else {
                     var user = req.user;
-
                     user.twitter.Tw_Id = profile.id;
                     user.twitter.token = token;
                     user.twitter.profile_name = profile.profile_name;
-                    // user.twitter.lastStatus = profile._json.status.text;
-
+                    user.twitter.username = profile.username;
                     user.save(function (err) {
                         if (err)
                             throw err;
