@@ -161,7 +161,7 @@ module.exports = function (passport) {
                             if (!user.twitter.token) {
                                 user.twitter.token = token;
                                 user.twitter.Tw_Id = profile.id;
-                                // user.twitter.lastStatus = profile._json.status.text;
+                                user.twitter.username = profile.username;
                                 user.save(function (err) {
                                     if (err)
                                         throw err;
