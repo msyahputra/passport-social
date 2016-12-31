@@ -45,9 +45,6 @@
         hooks for controlling what occurs when authentication succeeds or fails.</p>
     </div>
 
-
-
-
 <section id="profile"><h1 id="user-profile">User Profile</h1>
     <p>When authenticating using a third-party service such as Facebook or Twitter,
         user profile information will often be available. Each service tends to have
@@ -105,7 +102,7 @@
         </dd>
     </dl>
 
-    <p>Note that not all of the above fields are available from every service provider.
+    <p> Note that not all of the above fields are available from every service provider.
         Some providers may contain additional information not described here. Consult
         the provider-specific documentation for further details.</p>
 </section>
