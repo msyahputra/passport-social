@@ -102,9 +102,9 @@
         </dd>
     </dl>
 
-    <p> Note that not all of the above fields are available from every service provider.
+    <pre><code>Note that not all of the above fields are available from every service provider.
         Some providers may contain additional information not described here. Consult
-        the provider-specific documentation for further details.</p>
+        the provider-specific documentation for further details.</code></pre>
 </section>
 <section id="facebook"><h1 id="fcb">Facebook</h1>
     <p>The Facebook strategy allows users to log in to a web application using their
