@@ -128,15 +128,37 @@
     Some providers may contain additional information not described here. Consult
     the provider-specific documentation for further details.
 </section>
+----------------------------------------------------------------------------------------------------------------------------------------
 
-<article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-passport-facebook" class="anchor" href="#passport-facebook" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>passport-facebook</h1>
+<article class="markdown-body1 entry-content" itemprop="text">
+    <h1><a id="user-content-passport-facebook" class="anchor" href="#passport-facebook" aria-hidden="true">
+        <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                  d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+        </svg>
+    </a>passport-facebook
+    </h1>
 
-    <p><a href="https://travis-ci.org/jaredhanson/passport-facebook"><img src="https://camo.githubusercontent.com/acdb3c926ce4f26658f8303f3fe7ee17b44e9571/68747470733a2f2f696d672e736869656c64732e696f2f7472617669732f6a6172656468616e736f6e2f70617373706f72742d66616365626f6f6b2e737667" alt="Build" data-canonical-src="https://img.shields.io/travis/jaredhanson/passport-facebook.svg" style="max-width:100%;"></a>
-        <a href="https://coveralls.io/r/jaredhanson/passport-facebook"><img src="https://camo.githubusercontent.com/467039f44cb7676222de8d233e2b8dc4197c96fb/68747470733a2f2f696d672e736869656c64732e696f2f636f766572616c6c732f6a6172656468616e736f6e2f70617373706f72742d66616365626f6f6b2e737667" alt="Coverage" data-canonical-src="https://img.shields.io/coveralls/jaredhanson/passport-facebook.svg" style="max-width:100%;"></a>
-        <a href="https://codeclimate.com/github/jaredhanson/passport-facebook"><img src="https://camo.githubusercontent.com/8fd8f7d3d3609b3036b70635bb248c3fbea3f469/68747470733a2f2f696d672e736869656c64732e696f2f636f6465636c696d6174652f6769746875622f6a6172656468616e736f6e2f70617373706f72742d66616365626f6f6b2e7376673f6c6162656c3d7175616c697479" alt="Quality" data-canonical-src="https://img.shields.io/codeclimate/github/jaredhanson/passport-facebook.svg?label=quality" style="max-width:100%;"></a>
-        <a href="https://david-dm.org/jaredhanson/passport-facebook"><img src="https://camo.githubusercontent.com/bbac6144e7e7db4c93bc306c26699b9e0adf3b86/68747470733a2f2f696d672e736869656c64732e696f2f64617669642f6a6172656468616e736f6e2f70617373706f72742d66616365626f6f6b2e737667" alt="Dependencies" data-canonical-src="https://img.shields.io/david/jaredhanson/passport-facebook.svg" style="max-width:100%;"></a></p>
+    <p><a href="https://travis-ci.org/jaredhanson/passport-facebook"><img
+            src="https://camo.githubusercontent.com/acdb3c926ce4f26658f8303f3fe7ee17b44e9571/68747470733a2f2f696d672e736869656c64732e696f2f7472617669732f6a6172656468616e736f6e2f70617373706f72742d66616365626f6f6b2e737667"
+            alt="Build" data-canonical-src="https://img.shields.io/travis/jaredhanson/passport-facebook.svg"
+            style="max-width:100%;"></a>
+        <a href="https://coveralls.io/r/jaredhanson/passport-facebook"><img
+                src="https://camo.githubusercontent.com/467039f44cb7676222de8d233e2b8dc4197c96fb/68747470733a2f2f696d672e736869656c64732e696f2f636f766572616c6c732f6a6172656468616e736f6e2f70617373706f72742d66616365626f6f6b2e737667"
+                alt="Coverage" data-canonical-src="https://img.shields.io/coveralls/jaredhanson/passport-facebook.svg"
+                style="max-width:100%;"></a>
+        <a href="https://codeclimate.com/github/jaredhanson/passport-facebook"><img
+                src="https://camo.githubusercontent.com/8fd8f7d3d3609b3036b70635bb248c3fbea3f469/68747470733a2f2f696d672e736869656c64732e696f2f636f6465636c696d6174652f6769746875622f6a6172656468616e736f6e2f70617373706f72742d66616365626f6f6b2e7376673f6c6162656c3d7175616c697479"
+                alt="Quality"
+                data-canonical-src="https://img.shields.io/codeclimate/github/jaredhanson/passport-facebook.svg?label=quality"
+                style="max-width:100%;"></a>
+        <a href="https://david-dm.org/jaredhanson/passport-facebook"><img
+                src="https://camo.githubusercontent.com/bbac6144e7e7db4c93bc306c26699b9e0adf3b86/68747470733a2f2f696d672e736869656c64732e696f2f64617669642f6a6172656468616e736f6e2f70617373706f72742d66616365626f6f6b2e737667"
+                alt="Dependencies" data-canonical-src="https://img.shields.io/david/jaredhanson/passport-facebook.svg"
+                style="max-width:100%;"></a></p>
 
-    <p><a href="http://passportjs.org/">Passport</a> strategy for authenticating with <a href="http://www.facebook.com/">Facebook</a>
+    <p><a href="http://passportjs.org/">Passport</a> strategy for authenticating with <a
+            href="http://www.facebook.com/">Facebook</a>
         using the OAuth 2.0 API.</p>
 
     <p>This module lets you authenticate using Facebook in your Node.js applications.
@@ -145,44 +167,81 @@
         <a href="http://www.senchalabs.org/connect/">Connect</a>-style middleware, including
         <a href="http://expressjs.com/">Express</a>.</p>
 
-    <h2><a id="user-content-install" class="anchor" href="#install" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Install</h2>
+    <h2><a id="user-content-install-1" class="anchor" href="#install" aria-hidden="true">
+        <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                  d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+        </svg>
+    </a>Install
+    </h2>
 
-    <pre><code>$ npm install passport-facebook</code></pre>
+    <pre><code>$ npm install passport-facebook
+</code></pre>
 
-    <h2><a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
+    <h2><a id="user-content-usage-1" class="anchor" href="#usage" aria-hidden="true">
+        <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                  d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+        </svg>
+    </a>Usage
+    </h2>
 
-    <h4><a id="user-content-create-an-application" class="anchor" href="#create-an-application" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Create an Application</h4>
+    <h4><a id="user-content-create-an-application-1" class="anchor" href="#create-an-application" aria-hidden="true">
+        <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                  d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+        </svg>
+    </a>Create an Application
+    </h4>
 
     <p>Before using <code>passport-facebook</code>, you must register an application with
-        Facebook.  If you have not already done so, a new application can be created at
-        <a href="https://developers.facebook.com/">Facebook Developers</a>.  Your application will
+        Facebook. If you have not already done so, a new application can be created at
+        <a href="https://developers.facebook.com/">Facebook Developers</a>. Your application will
         be issued an app ID and app secret, which need to be provided to the strategy.
         You will also need to configure a redirect URI which matches the route in your
         application.</p>
 
-    <h4><a id="user-content-configure-strategy" class="anchor" href="#configure-strategy" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configure Strategy</h4>
+    <h4><a id="user-content-configure-strategy-1" class="anchor" href="#configure-strategy" aria-hidden="true">
+        <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                  d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+        </svg>
+    </a>Configure Strategy
+    </h4>
 
     <p>The Facebook authentication strategy authenticates users using a Facebook
-        account and OAuth 2.0 tokens.  The app ID and secret obtained when creating an
-        application are supplied as options when creating the strategy.  The strategy
+        account and OAuth 2.0 tokens. The app ID and secret obtained when creating an
+        application are supplied as options when creating the strategy. The strategy
         also requires a <code>verify</code> callback, which receives the access token and optional
         refresh token, as well as <code>profile</code> which contains the authenticated user's
-        Facebook profile.  The <code>verify</code> callback must call <code>cb</code> providing a user to
+        Facebook profile. The <code>verify</code> callback must call <code>cb</code> providing a user to
         complete authentication.</p>
 
-    <div class="highlight highlight-source-js"><pre><span class="pl-smi">passport</span>.<span class="pl-en">use</span>(<span class="pl-k">new</span> <span class="pl-en">FacebookStrategy</span>({
+    <div class="highlight highlight-source-js"><pre><span class="pl-smi">passport</span>.<span class="pl-en">use</span>(<span
+            class="pl-k">new</span> <span class="pl-en">FacebookStrategy</span>({
     clientID<span class="pl-k">:</span> <span class="pl-c1">FACEBOOK_APP_ID</span>,
     clientSecret<span class="pl-k">:</span> <span class="pl-c1">FACEBOOK_APP_SECRET</span>,
-    callbackURL<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>http://localhost:8080/auth/facebook/callback<span class="pl-pds">"</span></span>
+    callbackURL<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>http://localhost:3000/auth/facebook/callback<span
+                class="pl-pds">"</span></span>
   },
-  <span class="pl-k">function</span>(<span class="pl-smi">accessToken</span>, <span class="pl-smi">refreshToken</span>, <span class="pl-smi">profile</span>, <span class="pl-smi">cb</span>) {
-    <span class="pl-smi">User</span>.<span class="pl-en">findOrCreate</span>({ facebookId<span class="pl-k">:</span> <span class="pl-smi">profile</span>.<span class="pl-c1">id</span> }, <span class="pl-k">function</span> (<span class="pl-smi">err</span>, <span class="pl-smi">user</span>) {
+  <span class="pl-k">function</span>(<span class="pl-smi">accessToken</span>, <span class="pl-smi">refreshToken</span>, <span
+                class="pl-smi">profile</span>, <span class="pl-smi">cb</span>) {
+    <span class="pl-smi">User</span>.<span class="pl-en">findOrCreate</span>({ facebookId<span
+                class="pl-k">:</span> <span class="pl-smi">profile</span>.<span class="pl-c1">id</span> }, <span
+                class="pl-k">function</span> (<span class="pl-smi">err</span>, <span class="pl-smi">user</span>) {
       <span class="pl-k">return</span> <span class="pl-en">cb</span>(err, user);
     });
   }
-));</pre></div>
+));</pre>
+    </div>
 
-    <h4><a id="user-content-authenticate-requests" class="anchor" href="#authenticate-requests" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Authenticate Requests</h4>
+    <h4><a id="user-content-authenticate-requests-1" class="anchor" href="#authenticate-requests" aria-hidden="true">
+        <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                  d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+        </svg>
+    </a>Authenticate Requests
+    </h4>
 
     <p>Use <code>passport.authenticate()</code>, specifying the <code>'facebook'</code> strategy, to
         authenticate requests.</p>
@@ -190,87 +249,169 @@
     <p>For example, as route middleware in an <a href="http://expressjs.com/">Express</a>
         application:</p>
 
-    <div class="highlight highlight-source-js"><pre><span class="pl-smi">app</span>.<span class="pl-c1">get</span>(<span class="pl-s"><span class="pl-pds">'</span>/auth/facebook<span class="pl-pds">'</span></span>,
-  <span class="pl-smi">passport</span>.<span class="pl-en">authenticate</span>(<span class="pl-s"><span class="pl-pds">'</span>facebook<span class="pl-pds">'</span></span>));
+    <div class="highlight highlight-source-js"><pre><span class="pl-smi">app</span>.<span class="pl-c1">get</span>(<span
+            class="pl-s"><span class="pl-pds">'</span>/auth/facebook<span class="pl-pds">'</span></span>,
+  <span class="pl-smi">passport</span>.<span class="pl-en">authenticate</span>(<span class="pl-s"><span
+                class="pl-pds">'</span>facebook<span class="pl-pds">'</span></span>));
 
-<span class="pl-smi">app</span>.<span class="pl-c1">get</span>(<span class="pl-s"><span class="pl-pds">'</span>/auth/facebook/callback<span class="pl-pds">'</span></span>,
-  <span class="pl-smi">passport</span>.<span class="pl-en">authenticate</span>(<span class="pl-s"><span class="pl-pds">'</span>facebook<span class="pl-pds">'</span></span>, { failureRedirect<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>/login<span class="pl-pds">'</span></span> }),
+<span class="pl-smi">app</span>.<span class="pl-c1">get</span>(<span class="pl-s"><span class="pl-pds">'</span>/auth/facebook/callback<span
+                class="pl-pds">'</span></span>,
+  <span class="pl-smi">passport</span>.<span class="pl-en">authenticate</span>(<span class="pl-s"><span
+                class="pl-pds">'</span>facebook<span class="pl-pds">'</span></span>, { failureRedirect<span
+                class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>/login<span
+                class="pl-pds">'</span></span> }),
   <span class="pl-k">function</span>(<span class="pl-smi">req</span>, <span class="pl-smi">res</span>) {
     <span class="pl-c"><span class="pl-c">//</span> Successful authentication, redirect home.</span>
-    <span class="pl-smi">res</span>.<span class="pl-en">redirect</span>(<span class="pl-s"><span class="pl-pds">'</span>/<span class="pl-pds">'</span></span>);
-  });</pre></div>
+    <span class="pl-smi">res</span>.<span class="pl-en">redirect</span>(<span class="pl-s"><span class="pl-pds">'</span>/<span
+                class="pl-pds">'</span></span>);
+  });</pre>
+    </div>
 
-    <h2><a id="user-content-examples" class="anchor" href="#examples" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Examples</h2>
+    <h2><a id="user-content-examples" class="anchor" href="#examples" aria-hidden="true">
+        <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                  d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+        </svg>
+    </a>Examples
+    </h2>
 
     <p>Developers using the popular <a href="http://expressjs.com/">Express</a> web framework can
         refer to an <a href="https://github.com/passport/express-4.x-facebook-example">example</a>
         as a starting point for their own web applications.</p>
 
-    <h2><a id="user-content-faq" class="anchor" href="#faq" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>FAQ</h2>
+    <h2><a id="user-content-faq" class="anchor" href="#faq" aria-hidden="true">
+        <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                  d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+        </svg>
+    </a>FAQ
+    </h2>
 
-    <h5><a id="user-content-how-do-i-ask-a-user-for-additional-permissions" class="anchor" href="#how-do-i-ask-a-user-for-additional-permissions" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How do I ask a user for additional permissions?</h5>
+    <h5><a id="user-content-how-do-i-ask-a-user-for-additional-permissions" class="anchor"
+           href="#how-do-i-ask-a-user-for-additional-permissions" aria-hidden="true">
+        <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                  d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+        </svg>
+    </a>How do I ask a user for additional permissions?
+    </h5>
 
     <p>If you need additional permissions from the user, the permissions can be
         requested via the <code>scope</code> option to <code>passport.authenticate()</code>.</p>
 
-    <div class="highlight highlight-source-js"><pre><span class="pl-smi">app</span>.<span class="pl-c1">get</span>(<span class="pl-s"><span class="pl-pds">'</span>/auth/facebook<span class="pl-pds">'</span></span>,
-  <span class="pl-smi">passport</span>.<span class="pl-en">authenticate</span>(<span class="pl-s"><span class="pl-pds">'</span>facebook<span class="pl-pds">'</span></span>, { scope<span class="pl-k">:</span> [<span class="pl-s"><span class="pl-pds">'</span>user_friends<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>manage_pages<span class="pl-pds">'</span></span>] }));</pre></div>
+    <div class="highlight highlight-source-js"><pre><span class="pl-smi">app</span>.<span class="pl-c1">get</span>(<span
+            class="pl-s"><span class="pl-pds">'</span>/auth/facebook<span class="pl-pds">'</span></span>,
+  <span class="pl-smi">passport</span>.<span class="pl-en">authenticate</span>(<span class="pl-s"><span
+                class="pl-pds">'</span>facebook<span class="pl-pds">'</span></span>, { scope<span class="pl-k">:</span> [<span
+                class="pl-s"><span class="pl-pds">'</span>user_friends<span class="pl-pds">'</span></span>, <span
+                class="pl-s"><span class="pl-pds">'</span>manage_pages<span class="pl-pds">'</span></span>] }));</pre>
+    </div>
 
-    <p>Refer to <a href="https://developers.facebook.com/docs/facebook-login/permissions/overview">permissions with Facebook Login</a>
+    <p>Refer to <a href="https://developers.facebook.com/docs/facebook-login/permissions/overview">permissions with
+        Facebook Login</a>
         for further details.</p>
 
-    <h5><a id="user-content-how-do-i-re-ask-for-for-declined-permissions" class="anchor" href="#how-do-i-re-ask-for-for-declined-permissions" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How do I re-ask for for declined permissions?</h5>
+    <h5><a id="user-content-how-do-i-re-ask-for-for-declined-permissions" class="anchor"
+           href="#how-do-i-re-ask-for-for-declined-permissions" aria-hidden="true">
+        <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                  d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+        </svg>
+    </a>How do I re-ask for for declined permissions?
+    </h5>
 
     <p>Set the <code>authType</code> option to <code>rerequest</code> when authenticating.</p>
 
-    <div class="highlight highlight-source-js"><pre><span class="pl-smi">app</span>.<span class="pl-c1">get</span>(<span class="pl-s"><span class="pl-pds">'</span>/auth/facebook<span class="pl-pds">'</span></span>,
-  <span class="pl-smi">passport</span>.<span class="pl-en">authenticate</span>(<span class="pl-s"><span class="pl-pds">'</span>facebook<span class="pl-pds">'</span></span>, { authType<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>rerequest<span class="pl-pds">'</span></span>, scope<span class="pl-k">:</span> [<span class="pl-s"><span class="pl-pds">'</span>user_friends<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>manage_pages<span class="pl-pds">'</span></span>] }));</pre></div>
+    <div class="highlight highlight-source-js"><pre><span class="pl-smi">app</span>.<span class="pl-c1">get</span>(<span
+            class="pl-s"><span class="pl-pds">'</span>/auth/facebook<span class="pl-pds">'</span></span>,
+  <span class="pl-smi">passport</span>.<span class="pl-en">authenticate</span>(<span class="pl-s"><span
+                class="pl-pds">'</span>facebook<span class="pl-pds">'</span></span>, { authType<span
+                class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>rerequest<span
+                class="pl-pds">'</span></span>, scope<span class="pl-k">:</span> [<span class="pl-s"><span
+                class="pl-pds">'</span>user_friends<span class="pl-pds">'</span></span>, <span class="pl-s"><span
+                class="pl-pds">'</span>manage_pages<span class="pl-pds">'</span></span>] }));</pre>
+    </div>
 
-    <p>Refer to <a href="https://developers.facebook.com/docs/facebook-login/web#re-asking-declined-permissions">re-asking for declined permissions</a>
+    <p>Refer to <a href="https://developers.facebook.com/docs/facebook-login/web#re-asking-declined-permissions">re-asking
+        for declined permissions</a>
         for further details.</p>
 
-    <h5><a id="user-content-how-do-i-obtain-a-user-profile-with-specific-fields" class="anchor" href="#how-do-i-obtain-a-user-profile-with-specific-fields" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How do I obtain a user profile with specific fields?</h5>
+    <h5><a id="user-content-how-do-i-obtain-a-user-profile-with-specific-fields" class="anchor"
+           href="#how-do-i-obtain-a-user-profile-with-specific-fields" aria-hidden="true">
+        <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                  d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+        </svg>
+    </a>How do I obtain a user profile with specific fields?
+    </h5>
 
-    <p>The Facebook profile contains a lot of information about a user.  By default,
-        not all the fields in a profile are returned.  The fields need by an application
+    <p>The Facebook profile contains a lot of information about a user. By default,
+        not all the fields in a profile are returned. The fields need by an application
         can be indicated by setting the <code>profileFields</code> option.</p>
 
-    <div class="highlight highlight-source-js"><pre><span class="pl-k">new</span> <span class="pl-en">FacebookStrategy</span>({
+    <div class="highlight highlight-source-js"><pre><span class="pl-k">new</span> <span
+            class="pl-en">FacebookStrategy</span>({
   clientID<span class="pl-k">:</span> <span class="pl-c1">FACEBOOK_APP_ID</span>,
   clientSecret<span class="pl-k">:</span> <span class="pl-c1">FACEBOOK_APP_SECRET</span>,
-  callbackURL<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>http://localhost:8080/auth/facebook/callback<span class="pl-pds">"</span></span>,
-  profileFields<span class="pl-k">:</span> [<span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>displayName<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>photos<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>email<span class="pl-pds">'</span></span>]
-}), <span class="pl-k">...</span>)</pre></div>
+  callbackURL<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>http://localhost:8080/auth/facebook/callback<span
+                class="pl-pds">"</span></span>,
+  profileFields<span class="pl-k">:</span> [<span class="pl-s"><span class="pl-pds">'</span>id<span
+                class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>displayName<span
+                class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>photos<span
+                class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>email<span
+                class="pl-pds">'</span></span>]
+}), <span class="pl-k">...</span>)</pre>
+    </div>
 
     <p>Refer to the <a href="https://developers.facebook.com/docs/graph-api/reference/v2.5/user">User</a>
         section of the Graph API Reference for the complete set of available fields.</p>
 
-    <h5><a id="user-content-how-do-i-include-app-secret-proof-in-api-requests" class="anchor" href="#how-do-i-include-app-secret-proof-in-api-requests" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How do I include app secret proof in API requests?</h5>
+    <h5><a id="user-content-how-do-i-include-app-secret-proof-in-api-requests" class="anchor"
+           href="#how-do-i-include-app-secret-proof-in-api-requests" aria-hidden="true">
+        <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                  d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+        </svg>
+    </a>How do I include app secret proof in API requests?
+    </h5>
 
     <p>Set the <code>enableProof</code> option when creating the strategy.</p>
 
-    <div class="highlight highlight-source-js"><pre><span class="pl-k">new</span> <span class="pl-en">FacebookStrategy</span>({
+    <div class="highlight highlight-source-js"><pre><span class="pl-k">new</span> <span
+            class="pl-en">FacebookStrategy</span>({
   clientID<span class="pl-k">:</span> <span class="pl-c1">FACEBOOK_APP_ID</span>,
   clientSecret<span class="pl-k">:</span> <span class="pl-c1">FACEBOOK_APP_SECRET</span>,
-  callbackURL<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>http://localhost:8080/auth/facebook/callback<span class="pl-pds">"</span></span>,
+  callbackURL<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>http://localhost:8080/auth/facebook/callback<span
+                class="pl-pds">"</span></span>,
   enableProof<span class="pl-k">:</span> <span class="pl-c1">true</span>
-}, <span class="pl-k">...</span>)</pre></div>
+}, <span class="pl-k">...</span>)</pre>
+    </div>
 
-    <p>As detailed in <a href="https://developers.facebook.com/docs/graph-api/securing-requests#appsecret_proof">securing graph API requests</a>,
+    <p>As detailed in <a href="https://developers.facebook.com/docs/graph-api/securing-requests#appsecret_proof">securing
+        graph API requests</a>,
         requiring the app secret for server API requests helps prevent use of tokens
         stolen by malicous software or man in the middle attacks.</p>
 
-    <h5><a id="user-content-why-is-__-appended-to-the-redirect-uri" class="anchor" href="#why-is-__-appended-to-the-redirect-uri" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Why is #_=_ appended to the redirect URI?</h5>
+    <h5><a id="user-content-why-is-__-appended-to-the-redirect-uri" class="anchor"
+           href="#why-is-__-appended-to-the-redirect-uri" aria-hidden="true">
+        <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                  d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+        </svg>
+    </a>Why is #_=_ appended to the redirect URI?
+    </h5>
 
-    <p>This behavior is "by design" according to Facebook's response to a <a href="https://developers.facebook.com/bugs/318390728250352">bug</a>
+    <p>This behavior is "by design" according to Facebook's response to a <a
+            href="https://developers.facebook.com/bugs/318390728250352">bug</a>
         filed regarding this issue.</p>
 
     <p>Fragment identifiers are not supplied in requests made to a server, and as such
         this strategy is not aware that this behavior is exhibited and is not affected
-        by it.  If desired, this fragment can be removed on the client side.  Refer to
-        this <a href="http://stackoverflow.com/questions/7131909/facebook-callback-appends-to-return-url">discussion</a> on
+        by it. If desired, this fragment can be removed on the client side. Refer to
+        this <a href="http://stackoverflow.com/questions/7131909/facebook-callback-appends-to-return-url">discussion</a>
+        on
         Stack Overflow for recommendations on how to accomplish such removal.</p>
-        
+----------------------------------------------------------------------------------------------------------------------------------------
 
 <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-passport-twitter" class="anchor" href="#passport-twitter" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>passport-twitter</h1>
 
@@ -348,6 +489,7 @@ application:</p>
 <p>Developers using the popular <a href="http://expressjs.com/">Express</a> web framework can
 refer to an <a href="https://github.com/passport/express-4.x-twitter-example">example</a>
 as a starting point for their own web applications.</p>
+----------------------------------------------------------------------------------------------------------------------------------------
 
 <section id="google"><h1 id="gogle">Google</h1>
     <p>The Google strategy allows users to sign in to a web application using their
