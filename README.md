@@ -112,7 +112,7 @@
                 <dt>
          <dd>The type of email address (home, work, etc.).</dd>
             </dl>
-        </dd>6
+        </dd>
                 <dt><code>photos</code> {Array} [n]
         <dt>
         <dd>
@@ -128,7 +128,6 @@
     Some providers may contain additional information not described here. Consult
     the provider-specific documentation for further details.
 </section>
-----------------------------------------------------------------------------------------------------------------------------------------
 
 <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-passport-facebook" class="anchor" href="#passport-facebook" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>passport-facebook</h1>
 
@@ -148,8 +147,7 @@
 
     <h2><a id="user-content-install" class="anchor" href="#install" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Install</h2>
 
-    <pre><code>$ npm install passport-facebook
-</code></pre>
+    <pre><code>$ npm install passport-facebook</code></pre>
 
     <h2><a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
 
@@ -175,7 +173,7 @@
     <div class="highlight highlight-source-js"><pre><span class="pl-smi">passport</span>.<span class="pl-en">use</span>(<span class="pl-k">new</span> <span class="pl-en">FacebookStrategy</span>({
     clientID<span class="pl-k">:</span> <span class="pl-c1">FACEBOOK_APP_ID</span>,
     clientSecret<span class="pl-k">:</span> <span class="pl-c1">FACEBOOK_APP_SECRET</span>,
-    callbackURL<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>http://localhost:3000/auth/facebook/callback<span class="pl-pds">"</span></span>
+    callbackURL<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>http://localhost:8080/auth/facebook/callback<span class="pl-pds">"</span></span>
   },
   <span class="pl-k">function</span>(<span class="pl-smi">accessToken</span>, <span class="pl-smi">refreshToken</span>, <span class="pl-smi">profile</span>, <span class="pl-smi">cb</span>) {
     <span class="pl-smi">User</span>.<span class="pl-en">findOrCreate</span>({ facebookId<span class="pl-k">:</span> <span class="pl-smi">profile</span>.<span class="pl-c1">id</span> }, <span class="pl-k">function</span> (<span class="pl-smi">err</span>, <span class="pl-smi">user</span>) {
@@ -272,8 +270,9 @@
         by it.  If desired, this fragment can be removed on the client side.  Refer to
         this <a href="http://stackoverflow.com/questions/7131909/facebook-callback-appends-to-return-url">discussion</a> on
         Stack Overflow for recommendations on how to accomplish such removal.</p>
-----------------------------------------------------------------------------------------------------------------------------------------   
-      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-passport-twitter" class="anchor" href="#passport-twitter" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>passport-twitter</h1>
+        
+
+<article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-passport-twitter" class="anchor" href="#passport-twitter" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>passport-twitter</h1>
 
 <p><a href="https://travis-ci.org/jaredhanson/passport-twitter"><img src="https://camo.githubusercontent.com/21707ff95ad1f612b689a16c4ced1e40a4daa08b/68747470733a2f2f696d672e736869656c64732e696f2f7472617669732f6a6172656468616e736f6e2f70617373706f72742d747769747465722e737667" alt="Build" data-canonical-src="https://img.shields.io/travis/jaredhanson/passport-twitter.svg" style="max-width:100%;"></a>
 <a href="https://coveralls.io/r/jaredhanson/passport-twitter"><img src="https://camo.githubusercontent.com/bac47751e2107cebc8d5b5a076a758e5f1614664/68747470733a2f2f696d672e736869656c64732e696f2f636f766572616c6c732f6a6172656468616e736f6e2f70617373706f72742d747769747465722e737667" alt="Coverage" data-canonical-src="https://img.shields.io/coveralls/jaredhanson/passport-twitter.svg" style="max-width:100%;"></a>
@@ -349,7 +348,6 @@ application:</p>
 <p>Developers using the popular <a href="http://expressjs.com/">Express</a> web framework can
 refer to an <a href="https://github.com/passport/express-4.x-twitter-example">example</a>
 as a starting point for their own web applications.</p>
-----------------------------------------------------------------------------------------------------------------------------------------
 
 <section id="google"><h1 id="gogle">Google</h1>
     <p>The Google strategy allows users to sign in to a web application using their
