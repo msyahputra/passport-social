@@ -112,12 +112,14 @@ redirect the user after they have logged in.</p>
 <pre><code class="lang-javascript">// Redirect the user to Facebook for authentication.  When complete,
 // Facebook will redirect the user back to the application at
 //     /auth/facebook/callback
+
 app.get(&#39;/auth/facebook&#39;, passport.authenticate(&#39;facebook&#39;));
 
 // Facebook will redirect the user to this URL after approval.  Finish the
 // authentication process by attempting to obtain an access token.  If
 // access was granted, the user will be logged in.  Otherwise,
 // authentication has failed.
+
 app.get(&#39;/auth/facebook/callback&#39;,
   passport.authenticate(&#39;facebook&#39;, { successRedirect: &#39;/&#39;,
                                       failureRedirect: &#39;/login&#39; }));
@@ -184,12 +186,14 @@ URL to which Twitter will redirect the user after they have signed in.</p>
 <pre><code class="lang-javascript">// Redirect the user to Twitter for authentication.  When complete, Twitter
 // will redirect the user back to the application at
 //   /auth/twitter/callback
+
 app.get(&#39;/auth/twitter&#39;, passport.authenticate(&#39;twitter&#39;));
 
 // Twitter will redirect the user to this URL after approval.  Finish the
 // authentication process by attempting to obtain an access token.  If
 // access was granted, the user will be logged in.  Otherwise,
 // authentication has failed.
+
 app.get(&#39;/auth/twitter/callback&#39;,
   passport.authenticate(&#39;twitter&#39;, { successRedirect: &#39;/&#39;,
                                      failureRedirect: &#39;/login&#39; }));
@@ -242,6 +246,7 @@ passport.use(new GoogleStrategy({
 //   request.  The first step in Google authentication will involve redirecting
 //   the user to google.com.  After authorization, Google will redirect the user
 //   back to this application at /auth/google/callback
+
 app.get(&#39;/auth/google&#39;,
   passport.authenticate(&#39;google&#39;, { scope: &#39;https://www.google.com/m8/feeds&#39; });
 
@@ -250,6 +255,7 @@ app.get(&#39;/auth/google&#39;,
 //   request.  If authentication fails, the user will be redirected back to the
 //   login page.  Otherwise, the primary route function function will be called,
 //   which, in this example, will redirect the user to the home page.
+
 app.get(&#39;/auth/google/callback&#39;, 
   passport.authenticate(&#39;google&#39;, { failureRedirect: &#39;/login&#39; }),
   function(req, res) {
