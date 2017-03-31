@@ -5,7 +5,8 @@
         alt="passport banner" data-canonical-src="http://cdn.auth0.com/img/passport-banner-github.png"
         style="max-width:100%;"></a></p>
 
-    <p>This is the folder structure of the source code of the library passport.</p>
+This is the folder structure of the source code of the library passport.
+
   <pre><code class="lang-javascript">
     --- bin
     ------ www            &lt;!-- here place port localhost --&gt;
