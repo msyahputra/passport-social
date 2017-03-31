@@ -7,6 +7,7 @@
         
         <p>This is the folder structure of the source code of the library passport.</p>
     <pre><code class="language-markup">
+    
     --- bin
     ------ www   &lt;!-- here place port localhost --&gt;
     --- config
@@ -35,7 +36,7 @@
     </a>Passport
     </h1>
 
-    <p><a href="https://travis-ci.org/jaredhanson/passport"><img
+<!--     <p><a href="https://travis-ci.org/jaredhanson/passport"><img
             src="https://camo.githubusercontent.com/617e8dacc9d60ee36ed1e9fda455a6cbf2419f2c/68747470733a2f2f7472617669732d63692e6f72672f6a6172656468616e736f6e2f70617373706f72742e7376673f6272616e63683d6d6173746572"
             alt="Build" data-canonical-src="https://travis-ci.org/jaredhanson/passport.svg?branch=master"
             style="max-width:100%;"></a>
@@ -55,7 +56,7 @@
                 src="https://camo.githubusercontent.com/761f99d7a2d73a28505b0aa4021467365c508ee5/68747470733a2f2f696d672e736869656c64732e696f2f67726174697061792f6a6172656468616e736f6e2e737667"
                 alt="Tips" data-canonical-src="https://img.shields.io/gratipay/jaredhanson.svg" style="max-width:100%;"></a>
     </p>
-
+ -->
     <p>Passport is <a href="http://expressjs.com/">Express</a>-compatible authentication
         middleware for <a href="http://nodejs.org/">Node.js</a>.</p>
 
