@@ -9,6 +9,35 @@
     <pre><code class="language-markup">
     
     --- bin
+    ------ www            &lt;!-- here place port localhost --&gt;
+    --- config
+    ------ config.js      &lt;!-- will hold our database connection settings and all our client secret keys (facebook, google, twitter -&gt;
+    ------ pass.js        &lt;!-- configuring the strategies for passport --&gt;
+    --- models
+    ------ users.js       &lt;!-- our user model --&gt;
+    --- routes.js  
+    ------ index.js       &lt;!-- this script used for see images , posts and pagesliked from facebook  --&gt;
+    ------ social.js      &lt;!-- all the routes for our application --&gt;
+     - views
+    ------ index.ejs      &lt;!-- show our home page with login links --&gt;
+    ------ albums.ejs     &lt;!-- show our album form (only needed for album) --&gt;
+    ------ images.ejs     &lt;!-- show our Image form (only needed for Image) --&gt;
+    ------ profile.ejs    &lt;!-- after a user logs in, they will see their profile --&gt;
+     - package.json       &lt;!-- handle our npm packages --&gt;
+     - app.js             &lt;!-- setup our application --&gt;
+    </code>
+    </pre>
+# Passport-social
+
+<div class="markdown-body entry-content" itemprop="text"><p><a href="http://passportjs.org"><img
+        src="https://camo.githubusercontent.com/662ee2f98b69b0894d0a1d9117a9c5fb4dfc40aa/687474703a2f2f63646e2e61757468302e636f6d2f696d672f70617373706f72742d62616e6e65722d6769746875622e706e67"
+        alt="passport banner" data-canonical-src="http://cdn.auth0.com/img/passport-banner-github.png"
+        style="max-width:100%;"></a></p>
+
+    <p>This is the folder structure of the source code of the library passport.</p>
+    <pre><code class="language-markup">
+    
+    --- bin
     ------ www   &lt;!-- here place port localhost --&gt;
     --- config
     ------ config.js  &lt;!-- will hold our database connection settings and all our client secret keys (facebook, google, twitter -&gt;
