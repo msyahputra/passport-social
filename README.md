@@ -174,9 +174,8 @@ covering social networking, enterprise integration, API services, and more.</p>
         app is assigned an App ID and App Secret. Your application must also implement
         a redirect URL, to which Facebook will redirect users after they have approved
         access for your application.</p>
-    <pre><code class="lang-javascript">var passport = require(&#39;passport&#39;)
-  , FacebookStrategy = require(&#39;passport-facebook&#39;).Strategy;
-
+        
+<pre><code class="lang-javascript">
 passport.use(new FacebookStrategy({
     clientID: FACEBOOK_APP_ID,
     clientSecret: FACEBOOK_APP_SECRET,
@@ -252,7 +251,7 @@ app.get(&#39;/auth/facebook/callback&#39;,
         assigned a consumer key and consumer secret. Your application must also
         implement a callback URL, to which Twitter will redirect users after they have
         approved access for your application.</p>
-    <pre><code class="lang-javascript">var passport = require(&#39;passport&#39;)
+<pre><code class="lang-javascript">
   , TwitterStrategy = require(&#39;passport-twitter&#39;).Strategy;
 
 passport.use(new TwitterStrategy({
@@ -325,7 +324,7 @@ app.get(&#39;/auth/twitter/callback&#39;,
         providing a user, as well as <code>options</code> specifying a consumer key, consumer secret, and callback URL.
     </p>
     <h4 id="configuration">Configuration</h4>
-    <pre><code class="lang-javascript">var passport = require(&#39;passport&#39;);
+<pre><code class="lang-javascript">
 var GoogleStrategy = require(&#39;passport-google-oauth&#39;).OAuthStrategy;
 
 // Use the GoogleStrategy within Passport.
