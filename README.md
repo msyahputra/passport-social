@@ -143,4 +143,19 @@ covering social networking, enterprise integration, API services, and more.</p>
 <td>OpenID</td>
 <td><a href="https://github.com/jaredhanson">Jared Hanson</a></td>
 </tr>
--------------------------------------------------------------------------------------------------------------------------------
+<tr>
+<td><a href="https://github.com/jaredhanson/passport-google-oauth">Google</a></td>
+<td>OAuth / OAuth 2.0</td>
+<td><a href="https://github.com/jaredhanson">Jared Hanson</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/jaredhanson/passport-twitter">Twitter</a></td>
+<td>OAuth</td>
+<td><a href="https://github.com/jaredhanson">Jared Hanson</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/AzureAD/passport-azure-ad">Azure Active Directory</a></td>
+<td>OAuth 2.0 / OpenID / SAML</td>
+<td><a href="https://github.com/azuread">Azure</a></td>
+</tr></tbody></table>
+
