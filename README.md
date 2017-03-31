@@ -7,7 +7,6 @@
 
     <p>This is the folder structure of the source code of the library passport.</p>
     <pre><code class="language-markup">
-    
     --- bin
     ------ www            &lt;!-- here place port localhost --&gt;
     --- config
@@ -18,7 +17,7 @@
     --- routes.js  
     ------ index.js       &lt;!-- this script used for see images , posts and pagesliked from facebook  --&gt;
     ------ social.js      &lt;!-- all the routes for our application --&gt;
-     - views
+    ---views
     ------ index.ejs      &lt;!-- show our home page with login links --&gt;
     ------ albums.ejs     &lt;!-- show our album form (only needed for album) --&gt;
     ------ images.ejs     &lt;!-- show our Image form (only needed for Image) --&gt;
