@@ -262,4 +262,3 @@ app.get(&#39;/auth/google/callback&#39;,
     res.redirect(&#39;/&#39;);
   });
 </code></pre>
-
