@@ -159,6 +159,7 @@ covering social networking, enterprise integration, API services, and more.</p>
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
+
 </section>
 <section id="facebook"><h1 id="facebook">Facebook</h1>
     <p>The Facebook strategy allows users to log in to a web application using their
@@ -201,22 +202,19 @@ passport.use(new FacebookStrategy({
         the user to Facebook. The second route is the URL to which Facebook will
         redirect the user after they have logged in.</p>
     <pre><code class="lang-javascript">// Redirect the user to Facebook for authentication.  When complete,
-        // Facebook will redirect the user back to the application at
-        //     /auth/facebook/callback
+// Facebook will redirect the user back to the application at
+//     /auth/facebook/callback
 
-        app.get(&#39;/auth/facebook&#39;, passport.authenticate(&#39;facebook&#39;));
+app.get(&#39;/auth/facebook&#39;, passport.authenticate(&#39;facebook&#39;));
 
-        // Facebook will redirect the user to this URL after approval. Finish the
-        // authentication process by attempting to obtain an access token. If
-        // access was granted, the user will be logged in. Otherwise,
-        // authentication has failed.
+// Facebook will redirect the user to this URL after approval.  Finish the
+// authentication process by attempting to obtain an access token.  If
+// access was granted, the user will be logged in.  Otherwise,
+// authentication has failed.
 
-        app.get(&#39;/auth/facebook/callback&#39;,
-        passport.authenticate(&#39;facebook&#39;, {
-               successRedirect: &#39;/&#39;,
-               failureRedirect: &#39;/login&#39;
-            })
-         );
+app.get(&#39;/auth/facebook/callback&#39;,
+  passport.authenticate(&#39;facebook&#39;, { successRedirect: &#39;/&#39;,
+                                      failureRedirect: &#39;/login&#39; }));
 </code></pre>
     <p>Note that the URL of the callback route matches that of the <code>callbackURL</code> option
         specified when configuring the strategy.</p>
@@ -237,8 +235,8 @@ passport.use(new FacebookStrategy({
         Facebook.</p>
     <pre><code class="lang-xml">&lt;a href=&quot;/auth/facebook&quot;&gt;Login with Facebook&lt;/a&gt;
 </code></pre>
-
-
+    
+    
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -257,22 +255,21 @@ passport.use(new FacebookStrategy({
         assigned a consumer key and consumer secret. Your application must also
         implement a callback URL, to which Twitter will redirect users after they have
         approved access for your application.</p>
-    <pre><code class="lang-javascript">
-    var passport = require(&#39;passport&#39;)
-    TwitterStrategy = require(&#39;passport-twitter&#39;).Strategy;
+    <pre><code class="lang-javascript">var passport = require(&#39;passport&#39;)
+  , TwitterStrategy = require(&#39;passport-twitter&#39;).Strategy;
 
-        passport.use(new TwitterStrategy({
-            consumerKey: TWITTER_CONSUMER_KEY,
-            consumerSecret: TWITTER_CONSUMER_SECRET,
-            callbackURL: &quot;http://www.example.com/auth/twitter/callback&quot;
-          },
-          function(token, tokenSecret, profile, done) {
-            User.findOrCreate(..., function(err, user) {
-              if (err) { return done(err); }
-              done(null, user);
-             });
-          }
-      ));
+passport.use(new TwitterStrategy({
+    consumerKey: TWITTER_CONSUMER_KEY,
+    consumerSecret: TWITTER_CONSUMER_SECRET,
+    callbackURL: &quot;http://www.example.com/auth/twitter/callback&quot;
+  },
+  function(token, tokenSecret, profile, done) {
+    User.findOrCreate(..., function(err, user) {
+      if (err) { return done(err); }
+      done(null, user);
+    });
+  }
+));
 </code></pre>
     <p>The verify callback for Twitter authentication accepts <code>token</code>, <code>tokenSecret</code>,
         and <code>profile</code> arguments. <code>profile</code> will contain user profile information
@@ -282,24 +279,20 @@ passport.use(new FacebookStrategy({
     <p>Two routes are required for Twitter authentication. The first route initiates
         an OAuth transaction and redirects the user to Twitter. The second route is the
         URL to which Twitter will redirect the user after they have signed in.</p>
-    <pre><code class="lang-javascript">
-         // Redirect the user to Twitter for authentication.  When complete, Twitter
-         // will redirect the user back to the application at
-         //   /auth/twitter/callback
+    <pre><code class="lang-javascript">// Redirect the user to Twitter for authentication.  When complete, Twitter
+// will redirect the user back to the application at
+//   /auth/twitter/callback
 
-        app.get(&#39;/auth/twitter&#39;, passport.authenticate(&#39;twitter&#39;));
+app.get(&#39;/auth/twitter&#39;, passport.authenticate(&#39;twitter&#39;));
 
-        // Twitter will redirect the user to this URL after approval.  Finish the
-        // authentication process by attempting to obtain an access token.  If
-        // access was granted, the user will be logged in.  Otherwise,
-        // authentication has failed.
+// Twitter will redirect the user to this URL after approval.  Finish the
+// authentication process by attempting to obtain an access token.  If
+// access was granted, the user will be logged in.  Otherwise,
+// authentication has failed.
 
-        app.get(&#39;/auth/twitter/callback&#39;,
-        passport.authenticate(&#39;twitter&#39;, {
-           successRedirect: &#39;/&#39;,
-           failureRedirect: &#39;/login&#39;
-          })
-        );
+app.get(&#39;/auth/twitter/callback&#39;,
+  passport.authenticate(&#39;twitter&#39;, { successRedirect: &#39;/&#39;,
+                                     failureRedirect: &#39;/login&#39; }));
 </code></pre>
     <p>Note that the URL of the callback route matches that of the <code>callbackURL</code> option
         specified when configuring the strategy.</p>
@@ -308,8 +301,8 @@ passport.use(new FacebookStrategy({
         Twitter.</p>
     <pre><code class="lang-xml">&lt;a href=&quot;/auth/twitter&quot;&gt;Sign in with Twitter&lt;/a&gt;
 </code></pre>
-
-
+    
+    
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -337,48 +330,47 @@ passport.use(new FacebookStrategy({
         providing a user, as well as <code>options</code> specifying a consumer key, consumer secret, and callback URL.
     </p>
     <h4 id="configuration">Configuration</h4>
-    <pre><code class="lang-javascript">
-        var passport = require(&#39;passport&#39;);
-        var GoogleStrategy = require(&#39;passport-google-oauth&#39;).OAuthStrategy;
+    <pre><code class="lang-javascript">var passport = require(&#39;passport&#39;);
+var GoogleStrategy = require(&#39;passport-google-oauth&#39;).OAuthStrategy;
 
-        // Use the GoogleStrategy within Passport.
-        //   Strategies in passport require a `verify` function, which accept
-        //   credentials (in this case, a token, tokenSecret, and Google profile), and
-        //   invoke a callback with a user object.
-        passport.use(new GoogleStrategy({
-            consumerKey: GOOGLE_CONSUMER_KEY,
-            consumerSecret: GOOGLE_CONSUMER_SECRET,
-            callbackURL: &quot;http://www.example.com/auth/google/callback&quot;
-          },
-          function(token, tokenSecret, profile, done) {
-              User.findOrCreate({ googleId: profile.id }, function (err, user) {
-                return done(err, user);
-              });
-            })
-          );
+// Use the GoogleStrategy within Passport.
+//   Strategies in passport require a `verify` function, which accept
+//   credentials (in this case, a token, tokenSecret, and Google profile), and
+//   invoke a callback with a user object.
+passport.use(new GoogleStrategy({
+    consumerKey: GOOGLE_CONSUMER_KEY,
+    consumerSecret: GOOGLE_CONSUMER_SECRET,
+    callbackURL: &quot;http://www.example.com/auth/google/callback&quot;
+  },
+  function(token, tokenSecret, profile, done) {
+      User.findOrCreate({ googleId: profile.id }, function (err, user) {
+        return done(err, user);
+      });
+  }
+));
 </code></pre>
     <h4 id="routes">Routes</h4>
     <p>Use passport.authenticate(), specifying the &#39;google&#39; strategy, to authenticate requests. Authentication
         with Google requires an extra <code>scope</code> parameter. For information, go <a
                 href="https://developers.google.com/identity/protocols/OpenIDConnect#scope-param">here</a>.</p>
     <pre><code class="lang-javascript">// GET /auth/google
-        //   Use passport.authenticate() as route middleware to authenticate the
-        //   request.  The first step in Google authentication will involve redirecting
-        //   the user to google.com.  After authorization, Google will redirect the user
-        //   back to this application at /auth/google/callback
+//   Use passport.authenticate() as route middleware to authenticate the
+//   request.  The first step in Google authentication will involve redirecting
+//   the user to google.com.  After authorization, Google will redirect the user
+//   back to this application at /auth/google/callback
 
-        app.get(&#39;/auth/google&#39;,
-          passport.authenticate(&#39;google&#39;, { scope: &#39;https://www.google.com/m8/feeds&#39; });
+app.get(&#39;/auth/google&#39;,
+  passport.authenticate(&#39;google&#39;, { scope: &#39;https://www.google.com/m8/feeds&#39; });
 
-        // GET /auth/google/callback
-        //   Use passport.authenticate() as route middleware to authenticate the
-        //   request.  If authentication fails, the user will be redirected back to the
-        //   login page.  Otherwise, the primary route function function will be called,
-        //   which, in this example, will redirect the user to the home page.
+// GET /auth/google/callback
+//   Use passport.authenticate() as route middleware to authenticate the
+//   request.  If authentication fails, the user will be redirected back to the
+//   login page.  Otherwise, the primary route function function will be called,
+//   which, in this example, will redirect the user to the home page.
 
-        app.get(&#39;/auth/google/callback&#39;,
-          passport.authenticate(&#39;google&#39;, { failureRedirect: &#39;/login&#39; }),
-          function(req, res) {
-            res.redirect(&#39;/&#39;);
-          });
+app.get(&#39;/auth/google/callback&#39;, 
+  passport.authenticate(&#39;google&#39;, { failureRedirect: &#39;/login&#39; }),
+  function(req, res) {
+    res.redirect(&#39;/&#39;);
+  });
 </code></pre>
